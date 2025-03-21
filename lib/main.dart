@@ -25,10 +25,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      themeMode: ThemeMode.system, // Mengikuti tema sistem
-      home: const HomePage(), // Halaman utama
+      themeMode: ThemeMode.system,
+      home: const HomePage(),
       routes: {
-        '/detail': (context) => const DetailPage(imagePath: '',), // Rute untuk halaman detail
+        '/detail': (context) => const DetailPage(imagePath: '',),
       },
     );
   }

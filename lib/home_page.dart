@@ -153,7 +153,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // Item untuk Discography (baru)
+  // Item untuk Discography
   Widget _buildDiscographyItem(String imagePath, String title, String description) {
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 4),
@@ -176,7 +176,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // Item untuk Galeri dengan navigasi ke halaman Detail
+  // Gambar di Galeri dengan navigasi ke halaman Detail
   Widget _buildGalleryItem(BuildContext context, String imagePath) {
     return GestureDetector(
       onTap: () {

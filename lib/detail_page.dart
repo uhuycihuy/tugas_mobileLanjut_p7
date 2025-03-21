@@ -13,12 +13,12 @@ class DetailPage extends StatelessWidget {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
-            Navigator.pop(context); // Kembali ke halaman sebelumnya
+            Navigator.pop(context);
           },
         ),
       ),
       body: Center(
-        child: Image.asset(imagePath), // Menampilkan gambar yang diklik
+        child: Image.asset(imagePath),
       ),
     );
   }
